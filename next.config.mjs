@@ -36,9 +36,7 @@ const nextConfig = {
   },
   reactStrictMode: true,
   experimental: {
-    serverActions: {
-      allowedOrigins: ['localhost:3000'],
-    },
+    serverActions: true,
     typedRoutes: true,
     optimizePackageImports: ['react-dom', 'react', '@ffmpeg/ffmpeg', '@ffmpeg/util']
   }
